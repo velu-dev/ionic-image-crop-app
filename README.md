@@ -1,3 +1,22 @@
-# Ionic 4, Angular 7 and Cordova Crop and Upload Image
+Sample crop APP
 
-This source code is part of [Ionic 4, Angular 7 and Cordova Crop and Upload Image](https://www.djamware.com/post/5c9361e080aca754f7a9d1ef/ionic-4-angular-7-and-cordova-crop-and-upload-image) tutorial.
+
+Install
+
+ionic cordova plugin add cordova-plugin-crop
+npm install @ionic-native/crop
+ionic cordova plugin add cordova-plugin-camera
+npm install @ionic-native/camera
+ionic cordova plugin add cordova-plugin-file-transfer
+npm install @ionic-native/file-transfer
+ionic cordova plugin add cordova-plugin-file
+npm install @ionic-native/file
+
+
+Code
+
+
+Refer "home.page.ts"
+
+
+Upload it in backend url and bindback it with "fileUrl Variable"
