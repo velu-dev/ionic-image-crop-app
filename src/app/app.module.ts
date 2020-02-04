@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { Base64 } from '@ionic-native/base64/ngx';
 import { FilePath } from '@ionic-native/file-path/ngx';
+import { WebView } from '@ionic-native/ionic-webview/ngx';
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,7 +23,8 @@ import { FilePath } from '@ionic-native/file-path/ngx';
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     ImagePicker,
     Base64,
-    FilePath
+    FilePath,
+    WebView
   ],
   bootstrap: [AppComponent]
 })
